@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #302f2f;
+    background-image: url('../img/fondo.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    opacity: 0.8; 
+    z-index: 0;
+}
+
+.contenedor {
+    /*width: 90%;
+    */margin: 0 auto;
+    max-width: 1200px; 
+    z-index: 1;  
+}
+
+/* Estilos para el encabezado */
+.site-header {
+    background-color: #111111;
+    color: #fff;
+    padding: 20px;
+}
+
+.site-header h1 {
+    font-size: 2em;
+    margin: 0;   
+}
+
+.site-header h1 span {
+    size: 80px;
+    color: #ff6f61;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion a {
+    color: #be9012;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Estilos para el contenido principal */
+.contenido-principal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.blog {
+    flex-basis: 70%;
+}
+
+.entrada-blog {
+    background-color: #212121;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.entrada-blog img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la barra lateral */
+.cursos {
+    flex-basis: 25%;
+    background-color: #212121;
+    padding: 20px;
+}
+
+.cursos h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.cursos-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.curso {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+.site-footer {
+    background-color: #111111;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+/* Estilos para botones */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background: linear-gradient(to bottom, #ec6104, #d1260f);
+}
+
+.btn:hover {
+    background-color: #d1260f;
+}
+
+.no-margin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    z-index: 1;
+}
